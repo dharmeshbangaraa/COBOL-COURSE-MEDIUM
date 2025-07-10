@@ -1,4 +1,0 @@
-01  POSITION-RECORD.
-    05  POS-KEY.
-        10  POS-PORTFOLIO-ID   PIC X(08).
-        10  POS-DATE           PIC X(08).
