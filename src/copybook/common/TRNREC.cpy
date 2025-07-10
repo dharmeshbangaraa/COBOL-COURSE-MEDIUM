@@ -31,3 +31,12 @@
                10  TRN-PROCESS-USER  PIC X(08).
            05  TRN-FILLER           PIC X(46). *> Reduced by 4 to accommodate CHANNEL-CODE
       *****************************************************************
+      * FIELD DESCRIPTIONS:
+      * TRN-DATE        : TRANSACTION DATE (YYYYMMDD)
+      * TRN-TIME        : TRANSACTION TIME (HHMMSS)
+      * TRN-PORTFOLIO-ID: PORTFOLIO IDENTIFIER
+      * TRN-SEQUENCE-NO : SEQUENCE NUMBER FOR MULTIPLE TRANS
+      * TRN-TYPE        : BU=BUY, SL=SELL, TR=TRANSFER, FE=FEE
+      * TRN-STATUS      : P=PENDING, D=DONE, F=FAILED, R=REVERSED
+      * CHANNEL-CODE    : CHANNEL IDENTIFICATION (ATM, MOBL, BRCH, etc.)
+      *****************************************************************
