@@ -23,3 +23,13 @@
                10  POS-LAST-MAINT-USER   PIC X(08).
            05  POS-FILLER               PIC X(46). *> Reduced by 4 to accommodate CHANNEL-CODE
       *****************************************************************
+      * FIELD DESCRIPTIONS:
+      * POS-PORTFOLIO-ID : PORTFOLIO IDENTIFIER
+      * POS-DATE         : POSITION DATE (YYYYMMDD)
+      * POS-INVESTMENT-ID: INVESTMENT IDENTIFIER
+      * POS-QUANTITY     : HOLDING QUANTITY
+      * POS-COST-BASIS   : TOTAL COST BASIS
+      * POS-MARKET-VALUE : CURRENT MARKET VALUE
+      * POS-STATUS       : A=ACTIVE, C=CLOSED, P=PENDING
+      * CHANNEL-CODE     : CHANNEL IDENTIFICATION (ATM, MOBL, BRCH, etc.)
+      *****************************************************************
